@@ -12,7 +12,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import estudos.dio.galaxy.LeSisteme;
+import estudos.dio.galaxy.LeSysteme;
 import estudos.dio.galaxy.Service.PlanetaService;
 import estudos.dio.galaxy.model.Planeta;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -25,11 +25,12 @@ public class PlanetaController{
     private PlanetaService service;
 
     @Autowired
-    private LeSisteme leSistemeAPI;
+    private LeSysteme leSystemeAPI;
 
     @PostMapping("/1/{planeta}")
     public Planeta AdicionarPlaneta(@PathVariable String planeta){
-        Planeta planetaAPI = leSistemeAPI.consultarPlaneta(planeta);
+        // Uso da API feigh do Le-Sisteme
+        Planeta planetaAPI = leSystemeAPI.consultarPlaneta(planeta);
         System.out.println("Planeta encontrado:");
         System.out.println(planetaAPI);
         service.save(planetaAPI);
@@ -38,6 +39,7 @@ public class PlanetaController{
 
     @PutMapping("2/{id}")
     public Planeta editarPlaneta(@PathVariable String id, @RequestBody Planeta novoPlaneta) {
+        // return deve ser o service para aplicar as mudanças
         return service.edit(id, novoPlaneta);
         
     }
