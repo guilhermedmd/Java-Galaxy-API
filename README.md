@@ -8,7 +8,7 @@ A Galaxy API foi desenvolvida para fins de estudo, seu funcionamento gira em tor
 <br>
 Além disso, o projeto conta com o uso da API Le-Systeme (https://api.le-systeme-solaire.net/en/), uma API que disponibiliza informações sobre os planetas. Por meio dela, com base no nome do planeta é feita a requisição a Le-Systeme que retorna as informações daquele planeta, para que isso seja possível foi necessário o uso do OpenFeign.
 
-A documentação do projeto foi feita com auxílio do Swagger, que ao rodar o servidor de forma local disponibiliza as seguintes URL para acesso:
+A documentação do projeto foi feita com auxílio do Swagger, que ao rodar o servidor de forma local disponibiliza a seguinte URL para acesso:
 ```bash
   http://localhost:8080/swagger-ui/index.html#/
   ```
