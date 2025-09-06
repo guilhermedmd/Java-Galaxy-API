@@ -23,7 +23,7 @@ http://localhost:8080/formadevida
 Cada URI seja de planeta ou forma de vida possui os mesmos endpoints:
 - /1 -> Para adicionar um novo planeta ou forma de vida
 - /2/{id do planeta ou da forma de vida} -> Para editar os dados de um planeta ou de uma forma de vida
-- /3 -> irá exibir todas as formas de vidas ou planetas cadastrados no banco de dados
+- /3 -> Irá exibir todas as formas de vidas ou planetas cadastrados no banco de dados
 - /4/{id do planeta ou da forma de vida} -> Exibe os dados do planeta ou da forma de vida com base no id
 - /5/{id do planeta ou da forma de vida} -> Deleta a forma de vida ou o planeta com base no id
   
