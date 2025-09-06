@@ -1,6 +1,6 @@
 # Galaxy API 🌎🌠🌙⭐
 
-A galaxy API é uma API desenvolvida com em Java utilizando Springboot, o gerenciador de dependências Maven, Spring data JPA e o banco de dados H2. 
+A galaxy API é uma API desenvolvida em Java utilizando Springboot, o gerenciador de dependências Maven, Spring data JPA e o banco de dados H2. 
 
 ## Funcionamento
 A Galaxy API foi desenvolvida para fins de estudo, seu funcionamento gira em torno de mapear formas de vida e seus respetivos planetas, por meio das classes Planetas e Forma de Vida.
