@@ -4,8 +4,7 @@ A galaxy API é uma API desenvolvida com em Java utilizando Springboot, o gerenc
 
 ## Funcionamento
 A Galaxy API foi desenvolvida para fins de estudo, seu funcionamento gira em torno de mapear formas de vida e seus respetivos planetas, por meio das classes Planetas e Forma de Vida
-Além disso, o projeto conta com o uso da API Le-Systeme, uma API que disponibiliza informações sobre os planetas. Por meio dela, com base no nome do planeta é feita a requisição a Le-Systeme (https://api.le-systeme-solaire.net/en/)
-que retorna as informações daquele planeta, para que isso seja possível foi necessário o uso do OpenFeign.
+Além disso, o projeto conta com o uso da API Le-Systeme (https://api.le-systeme-solaire.net/en/), uma API que disponibiliza informações sobre os planetas. Por meio dela, com base no nome do planeta é feita a requisição a Le-Systeme que retorna as informações daquele planeta, para que isso seja possível foi necessário o uso do OpenFeign.
 
 A documentação do projeto foi feita com auxílio do Swagger, que ao rodar o servidor de forma local disponibiliza as seguintes URL para acesso:
 ```bash
