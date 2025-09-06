@@ -15,7 +15,7 @@ A documentação do projeto foi feita com auxílio do Swagger, que ao rodar o se
   
 Caso queira acessar por meio de um serviço de API Client como Postman use as URIs:
 ```bash
-- http://localhost:8080/planeta
+http://localhost:8080/planeta
 ```
 ```bash
 http://localhost:8080/formadevida
